@@ -1,2 +1,8 @@
-<h1>Books#new</h1>
-<p>Find me in app/views/books/new.html.erb</p>
+<h1>Add a book</h1>
+
+<form class="new" action="/books" method="post">
+  <div><span>Title</span><input type="text" name="title"></div>
+  <div><span>Author</span><input type="text" name="author"></div>
+  <div><span>Date Published</span><input type="date" name="date_published"></div>
+  <div class="submit"><input type="submit" value="Add book"></div>
+</form>

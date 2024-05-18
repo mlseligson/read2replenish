@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
+  root "books#index"
   resources :books, :patrons
 
   # 127.0.0.1/books
